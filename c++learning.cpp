@@ -111,18 +111,25 @@ int main()
     //     cout << "marks of " << i << "th Student is " << marks[i] << endl;
     // }
 
-    int arr2d[2][3] = {
-        {1, 2, 3},
-        {4, 5, 6}
+    // int arr2d[2][3] = {
+    //     {1, 2, 3},
+    //     {4, 5, 6}
 
-    };
-    for (int i = 0; i, i < 2; i++)
-    {
-        for (int j = 0; j < 3; j++)
-        {
-            cout << "the value at " << i << ", " << j << " is " << arr2d[i][j] << endl;
-        }
-    }
+    // };
+    // for (int i = 0; i, i < 2; i++)
+    // {
+    //     for (int j = 0; j < 3; j++)
+    //     {
+    //         cout << "the value at " << i << ", " << j << " is " << arr2d[i][j] << endl;
+    //     }
+    // }
+
+    // String Practice
+    string name = "Huzaifa";
+    cout << "the name is " << name << endl;
+    cout << "the length of name is " << name.length() << endl;
+    cout << "the name is " << name.substr(0, 3) << endl;
+    cout << "the name is " << name.substr(3, 7) << endl;
 
     return 0;
 }
