@@ -91,12 +91,38 @@ int main()
     // }
 
     // Function Practice
-    int a, b;
-    cout << "Enter First Number";
-    cin >> a;
-    cout << "Enter Second Number";
-    cin >> b;
-    cout << "The sum of add Function is: " << add(a, b);
+    // int a, b;
+    // cout << "Enter First Number";
+    // cin >> a;
+    // cout << "Enter Second Number";
+    // cin >> b;
+    // cout << "The sum of add Function is: " << add(a, b);
+
+    // Array Practice
+    // int arr[] = {1, 3, 6};
+    // int marks[6];
+    // for (int i = 0; i < 6; i++)
+    // {
+    //     cout << "Enter the Marks of " << i << "th Student" << endl;
+    //     cin >> marks[i];
+    // }
+    // for (int i = 0; i < 6; i++)
+    // {
+    //     cout << "marks of " << i << "th Student is " << marks[i] << endl;
+    // }
+
+    int arr2d[2][3] = {
+        {1, 2, 3},
+        {4, 5, 6}
+
+    };
+    for (int i = 0; i, i < 2; i++)
+    {
+        for (int j = 0; j < 3; j++)
+        {
+            cout << "the value at " << i << ", " << j << " is " << arr2d[i][j] << endl;
+        }
+    }
 
     return 0;
 }
