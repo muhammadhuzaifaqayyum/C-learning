@@ -1,6 +1,13 @@
 #include <iostream>
 using namespace std;
 
+// Function Declaration Practice
+int add(int a, int b)
+{
+    int c = a + b;
+    return c;
+}
+
 int main()
 {
     // cout << "Hello, World!" << endl;
@@ -78,9 +85,18 @@ int main()
     // } while (index < 5);
 
     // For Loop Practice
-    for (int i = 0; i < 5; i++)
-    {
-        cout << "the value of i is: " << i << endl;
-    }
+    // for (int i = 0; i < 5; i++)
+    // {
+    //     cout << "the value of i is: " << i << endl;
+    // }
+
+    // Function Practice
+    int a, b;
+    cout << "Enter First Number";
+    cin >> a;
+    cout << "Enter Second Number";
+    cin >> b;
+    cout << "The sum of add Function is: " << add(a, b);
+
     return 0;
 }
