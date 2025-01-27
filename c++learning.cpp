@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 // Function Declaration Practice
@@ -125,11 +126,20 @@ int main()
     // }
 
     // String Practice
-    string name = "Huzaifa";
-    cout << "the name is " << name << endl;
-    cout << "the length of name is " << name.length() << endl;
-    cout << "the name is " << name.substr(0, 3) << endl;
-    cout << "the name is " << name.substr(3, 7) << endl;
+    // string name = "Huzaifa";
+    // cout << "the name is " << name << endl;
+    // cout << "the length of name is " << name.length() << endl;
+    // cout << "the name is " << name.substr(0, 3) << endl;
+    // cout << "the name is " << name.substr(3, 7) << endl;
+
+    // Pointers Practice
+    int a = 3;
+    int *ptra;
+    ptra = &a;
+    cout << "The value of a is " << a << endl;
+    cout << "The value of a is " << *ptra << endl;
+    cout << "The address of a is " << &a << endl;
+    cout << "The address of a is " << ptra << endl;
 
     return 0;
 }
